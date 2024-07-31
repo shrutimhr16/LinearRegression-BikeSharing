@@ -25,6 +25,15 @@ The objective is to model the demand for shared bikes with the available indepen
 
 <br>
 
+## Conclusions
+*We can see that the equation of our best fitted line is: <br>
+cnt = 0.1910 + 0.2343 * yr + 0.4799 * temp - 0.1499 * windspeed + 0.0613 * season_summer + 0.0951 * season_winter + 0.0853 * month_sep - 0.0462 * weekday_sun -0.0570 * season_spring - 0.2865* weathersit_Light_snow_rain - 0.0803 * weathersit_Mist
+
+Three key feature variables - temp, yr, and weathersit_Light_snow_rain exhibit the highest coefficient values, indicating their significant impact.
+
+Significant variables to predict the demand for shared bikes are : 
+>temp , Year ,windspeed , Season - (Summer, Spring and Winter) , months(July, September) , weathersit (Light_snow_rain and Mist
+
 ## Technologies Used
 - Python - version 3.x
 
